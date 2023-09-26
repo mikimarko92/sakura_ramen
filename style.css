@@ -235,5 +235,87 @@ footer a {
 }
 
 @media (max-width: 1050px) {
+    .menu_none {
+        display: none;
+    }
+    .menu_tablet_phone {
+        font-size: 20px;
+    }
+    .main_headline {
+        font-size: 72px;
+    }
+    
+    .under_headline {
+        font-size: 20px;
+    }
+
+    .second_headline {
+        font-size: 64px;
+    }
+
+    .order_container {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .order_img {
+        width: 112px;
+        padding-bottom: 8px;
+    }
+    
+    .order_menu {
+        padding-top: 48px;
+    }
+    
+    .order_span {
+        font-size: 32px;
+    }
+    
+    .ramen_bgr {
+        background-image: url("./img/tablet.jpg");
+        margin-bottom: 96px;
+    }
+    
+    .ramen_menu {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .ramen_menu_img {
+        padding-right: 16px;
+        padding-top: 32px;
+    }
+    
+    .third_headline {
+        font-size: 32px;
+    }
+    
+    .table_margin {
+        padding-right: 120px;
+        padding-bottom: 8px;
+    }
+    
+    .table_style {
+        font-size: 24px;
+    }
+    
+    .ramen_menu_img_l {
+        padding-left: 16px;
+        padding-top: 32px;
+    }
+
+    .location {
+        font-size: 20px;
+    }
+    
+    .location_img {
+        height: 25px;
+        width: 25px;
+    }
+    
     
 }
