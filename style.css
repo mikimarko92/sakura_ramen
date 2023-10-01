@@ -206,7 +206,7 @@ header {
 
 .map {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     padding-top: 64px;
 }
 
@@ -234,17 +234,28 @@ footer a {
     padding-left: 10px;
 }
 
-@media (max-width: 1050px) {
+.footer_img_l_phone {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    header {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
     .menu_none {
         display: none;
     }
+
     .menu_tablet_phone {
         font-size: 20px;
     }
+
     .main_headline {
         font-size: 72px;
     }
-    
+
     .under_headline {
         font-size: 20px;
     }
@@ -259,63 +270,181 @@ footer a {
         padding-left: 16px;
         padding-right: 16px;
     }
-    
+
     .order_img {
         width: 112px;
         padding-bottom: 8px;
     }
-    
+
     .order_menu {
         padding-top: 48px;
     }
-    
+
     .order_span {
         font-size: 32px;
     }
-    
+
+    .location {
+        font-size: 20px;
+    }
+
+    .location_img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .map {
+        padding-top: 48px;
+    }
+
+    footer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+}
+
+@media (max-width: 1200px){
+
     .ramen_bgr {
         background-image: url("./img/tablet.jpg");
         margin-bottom: 96px;
     }
-    
+
     .ramen_menu {
         padding-top: 96px;
         padding-bottom: 96px;
         padding-left: 16px;
         padding-right: 16px;
     }
-    
+
     .ramen_menu_img {
         padding-right: 16px;
         padding-top: 32px;
     }
-    
+
     .third_headline {
         font-size: 32px;
     }
-    
+
     .table_margin {
         padding-right: 120px;
         padding-bottom: 8px;
     }
-    
+
     .table_style {
         font-size: 24px;
     }
-    
+
     .ramen_menu_img_l {
         padding-left: 16px;
         padding-top: 32px;
     }
 
+}
+
+@media (max-width: 600px) {
+
+    .menu_tablet_phone {
+        font-size: 16px;
+    }
+
+    .main_headline {
+        font-size: 44px;
+        text-align: center;
+    }
+
+    .under_headline {
+        font-size: 16px;
+    }
+
+    .second_headline {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .order_container {
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    .order_menu {
+        padding-top: 32px;
+        width: 112px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    .ramen_bgr {
+        background-image: url("./img/mobile.jpg");
+        margin-bottom: 72px;
+    }
+
+    .ramen_menu {
+        padding-top: 72px;
+        padding-bottom: 72px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .ramen_menu_img {
+        padding-right: 16px;
+        padding-top: 40px;
+        padding-right: 0px;
+    }
+
+    .ramen_menu_img_l {
+        padding-left: 0%;
+    }
+
+    .ramen_menu_l {
+        flex-direction: column;
+    }
+
+    .ramen_menu_r {
+        flex-direction: column-reverse;
+    }
+
+    .ramen_img_phone {
+        padding-top: 32px;
+    }
+
     .location {
-        font-size: 20px;
+        font-size: 16px;
     }
-    
+
     .location_img {
-        height: 25px;
-        width: 25px;
+        height: 20px;
+        width: 20px;
+    }
+
+    footer {
+        height: 86px;
     }
     
+    .footer_img_l_phone {
+        height: 40px;
+    }
     
+    .footer_img_r {
+        height: 32px;
+        width: 32px;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    .footer_img_l {
+        display: none;
+    }
+    .footer_img_l_phone {
+        display: block;
+        height: 40px;
+    }
 }
